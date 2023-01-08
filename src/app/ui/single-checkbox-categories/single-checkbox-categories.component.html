@@ -1,0 +1,8 @@
+<mat-card>
+  <mat-card-title>Categories List</mat-card-title>
+  <mat-checkbox
+    *ngFor="let item of checkbox$ | async"
+    style="margin-right: 20px"
+    >{{ item }}
+  </mat-checkbox>
+</mat-card>
